@@ -1,0 +1,175 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                    🎯 EJECUTA ESTOS PASOS AHORA                              ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+✅ TODO ESTÁ LISTO - Solo necesitas 3 pasos
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 1: CREAR REPOSITORIO EN GITHUB (1 minuto)
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Abre tu navegador
+2. Ve a: https://github.com/new
+3. Configura:
+   
+   Repository name:     portfolio-qa-specialist
+   Description:         Professional Portfolio - QA & Software Engineering
+   Visibility:          ✅ Public
+   
+   ⚠️ NO MARQUES NADA MÁS (deja todo sin marcar)
+
+4. Click en "Create repository"
+5. COPIA la URL que aparece (algo como):
+   
+   https://github.com/TU-USUARIO/portfolio-qa-specialist.git
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 2: EJECUTAR SCRIPT (1 minuto)
+═══════════════════════════════════════════════════════════════════════════════
+
+OPCIÓN A - Doble Click (MÁS FÁCIL):
+
+   1. Busca el archivo: subir-github.bat
+   2. Doble click en él
+   3. Pega la URL cuando te lo pida
+   4. Presiona Enter
+   5. ¡Listo!
+
+
+OPCIÓN B - PowerShell:
+
+   1. Click derecho en esta carpeta
+   2. "Abrir en Terminal" o "Open PowerShell window here"
+   3. Ejecuta:
+      
+      .\subir-github.bat
+   
+   4. Pega la URL cuando te lo pida
+   5. ¡Listo!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 3: DESPLEGAR EN VERCEL (2 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Ve a: https://vercel.com
+2. Click en "Sign Up" o "Log In"
+3. Selecciona "Continue with GitHub"
+4. Autoriza a Vercel
+5. Click en "Add New..." → "Project"
+6. Busca: portfolio-qa-specialist
+7. Click en "Import"
+8. Click en "Deploy"
+9. Espera 1-2 minutos
+10. ¡Tu sitio está en línea!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔐 SI TE PIDE AUTENTICACIÓN
+═══════════════════════════════════════════════════════════════════════════════
+
+NO uses tu contraseña de GitHub. Usa un TOKEN:
+
+1. Ve a: https://github.com/settings/tokens
+2. Click en "Generate new token" → "Generate new token (classic)"
+3. Nombre: Portfolio Deploy
+4. Selecciona: ✅ repo (marca toda la sección)
+5. Click en "Generate token"
+6. COPIA el token (solo se muestra una vez)
+7. Cuando el script pida contraseña, pega el token
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 LO QUE SE SUBIRÁ
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ 22 archivos en total
+✅ 2 commits realizados
+✅ Rama: main
+✅ Todo listo para push
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎉 DESPUÉS DE SUBIR
+═══════════════════════════════════════════════════════════════════════════════
+
+Tu portafolio estará en:
+
+   https://portfolio-qa-specialist-XXXXX.vercel.app
+
+Comparte en:
+   ✅ LinkedIn
+   ✅ CV/Resume
+   ✅ Email signature
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔄 ACTUALIZAR EN EL FUTURO
+═══════════════════════════════════════════════════════════════════════════════
+
+Cuando hagas cambios:
+
+   git add .
+   git commit -m "Update: descripción"
+   git push
+
+Vercel desplegará automáticamente.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⏱️ TIEMPO TOTAL: 4 MINUTOS
+═══════════════════════════════════════════════════════════════════════════════
+
+Paso 1: 1 minuto (crear repo en GitHub)
+Paso 2: 1 minuto (ejecutar script)
+Paso 3: 2 minutos (desplegar en Vercel)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🆘 ¿PROBLEMAS?
+═══════════════════════════════════════════════════════════════════════════════
+
+Lee: SUBIR_A_GITHUB.md (soluciones detalladas)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ CHECKLIST RÁPIDO
+═══════════════════════════════════════════════════════════════════════════════
+
+□ Crear repositorio en GitHub
+□ Copiar URL del repositorio
+□ Ejecutar subir-github.bat
+□ Pegar URL cuando lo pida
+□ Verificar en GitHub que se subió
+□ Ir a vercel.com
+□ Importar repositorio
+□ Desplegar
+□ ¡Compartir!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 ¡EMPIEZA AHORA!
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Abre: https://github.com/new
+2. Doble click en: subir-github.bat
+3. Ve a: https://vercel.com
+
+¡En 4 minutos estarás en línea!
+
+═══════════════════════════════════════════════════════════════════════════════
