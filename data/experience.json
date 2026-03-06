@@ -1,0 +1,48 @@
+{
+  "en": [
+    {
+      "role": "Senior QA & Software Engineering Specialist",
+      "company": "GBM Corporation",
+      "period": "2020 - Present",
+      "description": "Leading quality assurance initiatives for enterprise-level applications. Architecting and implementing comprehensive test automation frameworks using Java and Python. Spearheading AI-driven testing strategies to improve test coverage and efficiency.",
+      "technologies": ["Java", "Python", "Spring Boot", "Selenium", "REST Assured", "JUnit", "TestNG", "Jenkins", "Docker"]
+    },
+    {
+      "role": "QA Automation Engineer",
+      "company": "GBM Corporation",
+      "period": "2018 - 2020",
+      "description": "Developed and maintained automated test suites for web and API testing. Implemented performance testing frameworks and conducted load testing for critical systems. Collaborated with development teams to integrate testing into CI/CD pipelines.",
+      "technologies": ["Java", "Selenium", "JMeter", "Postman", "Git", "Jenkins", "SQL"]
+    },
+    {
+      "role": "Software Quality Analyst",
+      "company": "GBM Corporation",
+      "period": "2016 - 2018",
+      "description": "Executed manual and automated testing for various software projects. Created detailed test plans, test cases, and defect reports. Participated in agile ceremonies and contributed to continuous improvement initiatives.",
+      "technologies": ["Manual Testing", "SQL", "JIRA", "TestRail", "Agile/Scrum"]
+    }
+  ],
+  "es": [
+    {
+      "role": "Especialista Senior en QA e Ingeniería de Software",
+      "company": "GBM Corporación",
+      "period": "2020 - Presente",
+      "description": "Liderando iniciativas de aseguramiento de calidad para aplicaciones de nivel empresarial. Arquitectando e implementando marcos integrales de automatización de pruebas usando Java y Python. Encabezando estrategias de pruebas impulsadas por IA para mejorar la cobertura y eficiencia de las pruebas.",
+      "technologies": ["Java", "Python", "Spring Boot", "Selenium", "REST Assured", "JUnit", "TestNG", "Jenkins", "Docker"]
+    },
+    {
+      "role": "Ingeniero de Automatización QA",
+      "company": "GBM Corporación",
+      "period": "2018 - 2020",
+      "description": "Desarrollé y mantuve suites de pruebas automatizadas para pruebas web y de API. Implementé marcos de pruebas de rendimiento y realicé pruebas de carga para sistemas críticos. Colaboré con equipos de desarrollo para integrar pruebas en pipelines de CI/CD.",
+      "technologies": ["Java", "Selenium", "JMeter", "Postman", "Git", "Jenkins", "SQL"]
+    },
+    {
+      "role": "Analista de Calidad de Software",
+      "company": "GBM Corporación",
+      "period": "2016 - 2018",
+      "description": "Ejecuté pruebas manuales y automatizadas para varios proyectos de software. Creé planes de prueba detallados, casos de prueba e informes de defectos. Participé en ceremonias ágiles y contribuí a iniciativas de mejora continua.",
+      "technologies": ["Pruebas Manuales", "SQL", "JIRA", "TestRail", "Agile/Scrum"]
+    }
+  ]
+}

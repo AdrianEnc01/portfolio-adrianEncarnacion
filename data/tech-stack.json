@@ -1,0 +1,62 @@
+{
+  "automation": {
+    "icon": "🔧",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Python",
+      "Selenium WebDriver",
+      "REST Assured",
+      "JUnit",
+      "TestNG",
+      "Cucumber",
+      "Maven",
+      "Gradle"
+    ]
+  },
+  "coreQA": {
+    "icon": "✓",
+    "technologies": [
+      "ISTQB V4 Certified",
+      "Performance Testing",
+      "API Testing",
+      "Test Strategy & Planning",
+      "Quality Metrics",
+      "Agile/Scrum",
+      "Test Case Design",
+      "Defect Management",
+      "Risk-Based Testing",
+      "Continuous Testing"
+    ]
+  },
+  "dataAI": {
+    "icon": "🧠",
+    "technologies": [
+      "SQL (MySQL, PostgreSQL)",
+      "Machine Learning",
+      "Data Science",
+      "AI Testing",
+      "Test Data Management",
+      "Python (Pandas, NumPy)",
+      "Data Analysis",
+      "Predictive Analytics",
+      "Model Validation",
+      "ETL Testing"
+    ]
+  },
+  "security": {
+    "icon": "🔐",
+    "technologies": [
+      "Linux Administration",
+      "OWASP Top 10",
+      "Security Testing",
+      "Vulnerability Assessment",
+      "Secure SDLC",
+      "Penetration Testing",
+      "Authentication & Authorization",
+      "Encryption Standards",
+      "Security Compliance",
+      "Threat Modeling"
+    ]
+  }
+}

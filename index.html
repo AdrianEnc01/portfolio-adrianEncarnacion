@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Senior QA & Software Engineering Specialist - Portfolio showcasing expertise in Java, Python, AI Testing, and Quality Engineering">
+    <meta name="keywords" content="QA Engineer, Software Testing, Java, Python, AI Testing, Automation, GBM">
+    <title>Portfolio | Senior QA & Software Engineering Specialist</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'electric-blue': '#00d4ff',
+                        'cyber-green': '#00ff88',
+                        'bg-primary': '#0a0a0a',
+                        'bg-secondary': '#1a1a1a',
+                        'bg-card': '#151515',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Favicon (optional - add your own) -->
+    <!-- <link rel="icon" type="image/png" href="../assets/images/icons/favicon.png"> -->
+</head>
+<body>
+    
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" data-i18n="nav.logo">QA.DEV</a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                <li><a href="#tech-stack" class="nav-link" data-i18n="nav.techStack">Tech Stack</a></li>
+                <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a></li>
+                <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#social" class="nav-link" data-i18n="nav.social">Social</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+                
+                <!-- Language Switcher -->
+                <li class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="home" class="hero">
+        <!-- Animated Background -->
+        <div class="hero-background">
+            <canvas id="particles-canvas"></canvas>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 data-i18n="hero.title">Engineering Digital Resilience: QA, AI & Cybersecurity</h1>
+                <p data-i18n="hero.subtitle">
+                    Transforming software quality through intelligent automation, 
+                    rigorous testing methodologies, and cutting-edge AI integration.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn btn-primary" data-i18n="hero.btnExperience">View Experience</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero.btnContact">Contact Me</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="profile-container">
+                    <!-- Animated Glow Effect -->
+                    <div class="profile-glow"></div>
+                    
+                    <!-- Profile Image 
+                         TO REPLACE THIS IMAGE:
+                         1. Place your professional photo in: assets/images/profile/
+                         2. Name it: profile-placeholder.jpg
+                         3. Or update the src attribute below with your image filename
+                         4. Recommended: Square image, minimum 800x800px
+                    -->
+                    <div class="profile-image">
+                        <img src="assets/images/profile/profile-placeholder.jpg" 
+                             alt="Professional Profile Photo"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Crect fill=%22%231a1a1a%22 width=%22400%22 height=%22400%22/%3E%3Ctext fill=%22%2300d4ff%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EYour Photo Here%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="section">
+        <h2 class="section-title" data-i18n="about.title">About Me</h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p data-i18n="about.paragraph1">
+                    Senior QA & Software Engineering Specialist with extensive experience 
+                    at GBM, specializing in quality assurance, automation testing, and 
+                    AI-driven testing solutions.
+                </p>
+                <p data-i18n="about.paragraph2">
+                    Expert in Java and Python development, with a strong focus on building 
+                    robust testing frameworks, performance optimization, and ensuring 
+                    software reliability across complex enterprise systems.
+                </p>
+                <p data-i18n="about.paragraph3">
+                    Passionate about leveraging artificial intelligence and machine learning 
+                    to revolutionize software testing processes, while maintaining the highest 
+                    standards of cybersecurity and code quality.
+                </p>
+            </div>
+            
+            <div class="about-highlights">
+                <div class="highlight-item">
+                    <div class="highlight-icon">🏢</div>
+                    <div class="highlight-text">
+                        <h3 data-i18n="about.highlight1.title">GBM Experience</h3>
+                        <p data-i18n="about.highlight1.description">Leading QA initiatives in enterprise solutions</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-icon">🤖</div>
+                    <div class="highlight-text">
+                        <h3 data-i18n="about.highlight2.title">AI Testing</h3>
+                        <p data-i18n="about.highlight2.description">Pioneering intelligent test automation</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-icon">⚡</div>
+                    <div class="highlight-text">
+                        <h3 data-i18n="about.highlight3.title">Performance Engineering</h3>
+                        <p data-i18n="about.highlight3.description">Optimizing system reliability and speed</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-icon">🔒</div>
+                    <div class="highlight-text">
+                        <h3 data-i18n="about.highlight4.title">Security Focus</h3>
+                        <p data-i18n="about.highlight4.description">OWASP standards and secure coding practices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TECH STACK SECTION
+         ============================================ -->
+    <section id="tech-stack" class="section">
+        <h2 class="section-title" data-i18n="techStack.title">Technology Stack</h2>
+        
+        <div class="tech-grid">
+            <!-- Automation Card -->
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🔧</div>
+                    <h3 data-i18n="techStack.automation.title">Automation</h3>
+                </div>
+                <ul class="tech-list">
+                    <li data-i18n="techStack.automation.item1">Java</li>
+                    <li data-i18n="techStack.automation.item2">Spring Boot</li>
+                    <li data-i18n="techStack.automation.item3">Python</li>
+                    <li data-i18n="techStack.automation.item4">Selenium</li>
+                    <li data-i18n="techStack.automation.item5">REST Assured</li>
+                </ul>
+            </div>
+            
+            <!-- Core QA Card -->
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">✓</div>
+                    <h3 data-i18n="techStack.coreQA.title">Core QA</h3>
+                </div>
+                <ul class="tech-list">
+                    <li data-i18n="techStack.coreQA.item1">ISTQB V4 Certified</li>
+                    <li data-i18n="techStack.coreQA.item2">Performance Testing</li>
+                    <li data-i18n="techStack.coreQA.item3">API Testing</li>
+                    <li data-i18n="techStack.coreQA.item4">Test Strategy</li>
+                    <li data-i18n="techStack.coreQA.item5">Quality Metrics</li>
+                </ul>
+            </div>
+            
+            <!-- Data / AI Card -->
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🧠</div>
+                    <h3 data-i18n="techStack.dataAI.title">Data / AI</h3>
+                </div>
+                <ul class="tech-list">
+                    <li data-i18n="techStack.dataAI.item1">SQL</li>
+                    <li data-i18n="techStack.dataAI.item2">Machine Learning</li>
+                    <li data-i18n="techStack.dataAI.item3">Data Science</li>
+                    <li data-i18n="techStack.dataAI.item4">AI Testing</li>
+                    <li data-i18n="techStack.dataAI.item5">Test Data Management</li>
+                </ul>
+            </div>
+            
+            <!-- Security Card -->
+            <div class="tech-card">
+                <div class="tech-card-header">
+                    <div class="tech-icon">🔐</div>
+                    <h3 data-i18n="techStack.security.title">Security</h3>
+                </div>
+                <ul class="tech-list">
+                    <li data-i18n="techStack.security.item1">Linux</li>
+                    <li data-i18n="techStack.security.item2">OWASP</li>
+                    <li data-i18n="techStack.security.item3">Security Testing</li>
+                    <li data-i18n="techStack.security.item4">Vulnerability Assessment</li>
+                    <li data-i18n="techStack.security.item5">Secure SDLC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         EXPERIENCE TIMELINE SECTION
+         ============================================ -->
+    <section id="experience" class="section">
+        <h2 class="section-title" data-i18n="experience.title">Professional Experience</h2>
+        
+        <div class="timeline" id="timeline">
+            <!-- Timeline items will be dynamically loaded from experience.json -->
+        </div>
+    </section>
+
+    <!-- ============================================
+         GITHUB PROJECTS SECTION
+         ============================================ -->
+    <section id="projects" class="py-20 px-4 bg-bg-secondary">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-montserrat font-bold text-center mb-4 text-electric-blue" data-i18n="projects.title">
+                GitHub Projects
+            </h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto" data-i18n="projects.subtitle">
+                Explore my latest open-source contributions and personal projects
+            </p>
+            
+            <!-- GitHub Username Input -->
+            <div class="max-w-md mx-auto mb-12">
+                <div class="flex gap-2">
+                    <input 
+                        type="text" 
+                        id="githubUsername" 
+                        placeholder="Enter GitHub username"
+                        class="flex-1 px-4 py-3 bg-bg-card border border-electric-blue/30 rounded-lg text-white focus:outline-none focus:border-electric-blue transition-colors"
+                        value="octocat"
+                    >
+                    <button 
+                        onclick="loadGitHubProjects()" 
+                        class="px-6 py-3 bg-electric-blue text-bg-primary font-semibold rounded-lg hover:bg-cyber-green transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/50"
+                    >
+                        <i class="fab fa-github mr-2"></i>
+                        <span data-i18n="projects.loadBtn">Load</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Loading Spinner -->
+            <div id="projectsLoading" class="hidden text-center py-12">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-electric-blue"></div>
+                <p class="text-gray-400 mt-4" data-i18n="projects.loading">Loading projects...</p>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+            
+            <!-- Error Message -->
+            <div id="projectsError" class="hidden text-center py-12">
+                <i class="fas fa-exclamation-circle text-5xl text-red-500 mb-4"></i>
+                <p class="text-gray-400" data-i18n="projects.error">Unable to load projects. Please check the username and try again.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SOCIAL MEDIA SECTION
+         ============================================ -->
+    <section id="social" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-montserrat font-bold mb-4 text-electric-blue" data-i18n="social.title">
+                Connect With Me
+            </h2>
+            <p class="text-gray-400 mb-12" data-i18n="social.subtitle">
+                Let's connect on social media and professional networks
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" 
+                   class="group bg-bg-card border border-electric-blue/20 rounded-xl p-6 hover:border-electric-blue transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/30 hover:-translate-y-2">
+                    <i class="fab fa-linkedin text-5xl text-electric-blue mb-3 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-white font-semibold">LinkedIn</h3>
+                    <p class="text-gray-500 text-sm mt-1">Professional Network</p>
+                </a>
+                
+                <!-- GitHub -->
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+                   class="group bg-bg-card border border-electric-blue/20 rounded-xl p-6 hover:border-electric-blue transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/30 hover:-translate-y-2">
+                    <i class="fab fa-github text-5xl text-electric-blue mb-3 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-white font-semibold">GitHub</h3>
+                    <p class="text-gray-500 text-sm mt-1">Code Repository</p>
+                </a>
+                
+                <!-- Twitter/X -->
+                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"
+                   class="group bg-bg-card border border-electric-blue/20 rounded-xl p-6 hover:border-electric-blue transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/30 hover:-translate-y-2">
+                    <i class="fab fa-twitter text-5xl text-electric-blue mb-3 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-white font-semibold">Twitter</h3>
+                    <p class="text-gray-500 text-sm mt-1">Tech Updates</p>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:your.email@example.com"
+                   class="group bg-bg-card border border-electric-blue/20 rounded-xl p-6 hover:border-electric-blue transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/30 hover:-translate-y-2">
+                    <i class="fas fa-envelope text-5xl text-electric-blue mb-3 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-white font-semibold">Email</h3>
+                    <p class="text-gray-500 text-sm mt-1">Direct Contact</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section id="contact" class="py-20 px-4 bg-bg-secondary">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-montserrat font-bold mb-4 text-electric-blue" data-i18n="contact.title">
+                    Let's Build Robust Software
+                </h2>
+                <p class="text-gray-400 text-lg" data-i18n="contact.subtitle">
+                    Ready to elevate your software quality? Let's connect and discuss how we can work together.
+                </p>
+            </div>
+            
+            <div class="bg-bg-card border border-electric-blue/20 rounded-2xl p-8 md:p-12 shadow-xl">
+                <form id="contactForm" class="space-y-6">
+                    <!-- Name Field -->
+                    <div>
+                        <label for="name" class="block text-electric-blue font-semibold mb-2" data-i18n="contact.form.name">
+                            Name
+                        </label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required
+                            class="w-full px-4 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-white focus:outline-none focus:border-electric-blue focus:ring-2 focus:ring-electric-blue/20 transition-all"
+                            placeholder="Your full name"
+                        >
+                    </div>
+                    
+                    <!-- Email Field -->
+                    <div>
+                        <label for="email" class="block text-electric-blue font-semibold mb-2" data-i18n="contact.form.email">
+                            Email
+                        </label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            class="w-full px-4 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-white focus:outline-none focus:border-electric-blue focus:ring-2 focus:ring-electric-blue/20 transition-all"
+                            placeholder="your.email@example.com"
+                        >
+                    </div>
+                    
+                    <!-- Subject Field -->
+                    <div>
+                        <label for="subject" class="block text-electric-blue font-semibold mb-2" data-i18n="contact.form.subject">
+                            Subject
+                        </label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            required
+                            class="w-full px-4 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-white focus:outline-none focus:border-electric-blue focus:ring-2 focus:ring-electric-blue/20 transition-all"
+                            placeholder="What's this about?"
+                        >
+                    </div>
+                    
+                    <!-- Message Field -->
+                    <div>
+                        <label for="message" class="block text-electric-blue font-semibold mb-2" data-i18n="contact.form.message">
+                            Message
+                        </label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            required
+                            rows="6"
+                            class="w-full px-4 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-white focus:outline-none focus:border-electric-blue focus:ring-2 focus:ring-electric-blue/20 transition-all resize-vertical"
+                            placeholder="Tell me about your project or inquiry..."
+                        ></textarea>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <div class="flex flex-col sm:flex-row gap-4 items-center justify-between">
+                        <div class="flex items-center gap-2 text-gray-400 text-sm">
+                            <i class="fas fa-lock"></i>
+                            <span data-i18n="contact.form.privacy">Your information is secure</span>
+                        </div>
+                        <button 
+                            type="submit"
+                            class="w-full sm:w-auto px-8 py-4 bg-electric-blue text-bg-primary font-bold rounded-lg hover:bg-cyber-green transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/50 hover:-translate-y-1 flex items-center justify-center gap-2"
+                        >
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-i18n="contact.form.submit">Send Message</span>
+                        </button>
+                    </div>
+                    
+                    <!-- Success Message -->
+                    <div id="formSuccess" class="hidden bg-cyber-green/10 border border-cyber-green rounded-lg p-4 text-cyber-green">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span data-i18n="contact.form.success">Message sent successfully! I'll get back to you soon.</span>
+                    </div>
+                    
+                    <!-- Error Message -->
+                    <div id="formError" class="hidden bg-red-500/10 border border-red-500 rounded-lg p-4 text-red-500">
+                        <i class="fas fa-exclamation-circle mr-2"></i>
+                        <span data-i18n="contact.form.error">Something went wrong. Please try again or contact me directly.</span>
+                    </div>
+                </form>
+                
+                <!-- Alternative Contact Methods -->
+                <div class="mt-12 pt-8 border-t border-electric-blue/20">
+                    <p class="text-center text-gray-400 mb-6" data-i18n="contact.alternative">
+                        Or reach out directly:
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"
+                           class="flex items-center gap-2 px-6 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-electric-blue hover:border-electric-blue hover:shadow-lg hover:shadow-electric-blue/30 transition-all">
+                            <i class="fab fa-linkedin text-xl"></i>
+                            <span data-i18n="contact.linkedin">LinkedIn</span>
+                        </a>
+                        <a href="mailto:your.email@example.com"
+                           class="flex items-center gap-2 px-6 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-electric-blue hover:border-electric-blue hover:shadow-lg hover:shadow-electric-blue/30 transition-all">
+                            <i class="fas fa-envelope text-xl"></i>
+                            <span data-i18n="contact.email">Email</span>
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+                           class="flex items-center gap-2 px-6 py-3 bg-bg-secondary border border-electric-blue/30 rounded-lg text-electric-blue hover:border-electric-blue hover:shadow-lg hover:shadow-electric-blue/30 transition-all">
+                            <i class="fab fa-github text-xl"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <p data-i18n="footer.copyright">&copy; 2026 Senior QA & Software Engineering Specialist. All rights reserved.</p>
+    </footer>
+
+    <!-- ============================================
+         JAVASCRIPT
+         ============================================ -->
+    <script src="assets/js/language-switcher.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "logo": "QA.DEV",
+    "home": "Home",
+    "about": "About",
+    "techStack": "Tech Stack",
+    "experience": "Experience",
+    "projects": "Projects",
+    "social": "Social",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Engineering Digital Resilience: QA, AI & Cybersecurity",
+    "subtitle": "Transforming software quality through intelligent automation, rigorous testing methodologies, and cutting-edge AI integration.",
+    "btnExperience": "View Experience",
+    "btnContact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Senior QA & Software Engineering Specialist with extensive experience at GBM, specializing in quality assurance, automation testing, and AI-driven testing solutions.",
+    "paragraph2": "Expert in Java and Python development, with a strong focus on building robust testing frameworks, performance optimization, and ensuring software reliability across complex enterprise systems.",
+    "paragraph3": "Passionate about leveraging artificial intelligence and machine learning to revolutionize software testing processes, while maintaining the highest standards of cybersecurity and code quality.",
+    "highlight1": {
+      "title": "GBM Experience",
+      "description": "Leading QA initiatives in enterprise solutions"
+    },
+    "highlight2": {
+      "title": "AI Testing",
+      "description": "Pioneering intelligent test automation"
+    },
+    "highlight3": {
+      "title": "Performance Engineering",
+      "description": "Optimizing system reliability and speed"
+    },
+    "highlight4": {
+      "title": "Security Focus",
+      "description": "OWASP standards and secure coding practices"
+    }
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "automation": {
+      "title": "Automation",
+      "item1": "Java",
+      "item2": "Spring Boot",
+      "item3": "Python",
+      "item4": "Selenium",
+      "item5": "REST Assured"
+    },
+    "coreQA": {
+      "title": "Core QA",
+      "item1": "ISTQB V4 Certified",
+      "item2": "Performance Testing",
+      "item3": "API Testing",
+      "item4": "Test Strategy",
+      "item5": "Quality Metrics"
+    },
+    "dataAI": {
+      "title": "Data / AI",
+      "item1": "SQL",
+      "item2": "Machine Learning",
+      "item3": "Data Science",
+      "item4": "AI Testing",
+      "item5": "Test Data Management"
+    },
+    "security": {
+      "title": "Security",
+      "item1": "Linux",
+      "item2": "OWASP",
+      "item3": "Security Testing",
+      "item4": "Vulnerability Assessment",
+      "item5": "Secure SDLC"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience"
+  },
+  "projects": {
+    "title": "GitHub Projects",
+    "subtitle": "Explore my latest open-source contributions and personal projects",
+    "loadBtn": "Load",
+    "loading": "Loading projects...",
+    "error": "Unable to load projects. Please check the username and try again."
+  },
+  "social": {
+    "title": "Connect With Me",
+    "subtitle": "Let's connect on social media and professional networks"
+  },
+  "contact": {
+    "title": "Let's Build Robust Software",
+    "subtitle": "Ready to elevate your software quality? Let's connect and discuss how we can work together.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "privacy": "Your information is secure",
+      "submit": "Send Message",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again or contact me directly."
+    },
+    "alternative": "Or reach out directly:",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© 2026 Senior QA & Software Engineering Specialist. All rights reserved."
+  }
+}

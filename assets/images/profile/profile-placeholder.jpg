@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect fill="#1a1a1a" width="800" height="800"/>
+  <circle cx="400" cy="320" r="120" fill="url(#grad1)" opacity="0.3"/>
+  <circle cx="400" cy="320" r="100" fill="#00d4ff" opacity="0.5"/>
+  <path d="M 400 240 Q 360 260 360 300 L 360 340 Q 360 360 380 360 L 420 360 Q 440 360 440 340 L 440 300 Q 440 260 400 240 Z" fill="#0a0a0a"/>
+  <circle cx="380" cy="300" r="8" fill="#00d4ff"/>
+  <circle cx="420" cy="300" r="8" fill="#00d4ff"/>
+  <path d="M 370 320 Q 400 340 430 320" stroke="#00d4ff" stroke-width="3" fill="none"/>
+  <path d="M 300 450 Q 400 480 500 450 L 500 550 Q 500 580 470 580 L 330 580 Q 300 580 300 550 Z" fill="url(#grad1)" opacity="0.3"/>
+  <text x="400" y="650" font-family="Montserrat, sans-serif" font-size="32" fill="#00d4ff" text-anchor="middle" font-weight="bold">YOUR PHOTO HERE</text>
+  <text x="400" y="690" font-family="Inter, sans-serif" font-size="18" fill="#707070" text-anchor="middle">Replace: assets/images/profile/profile-placeholder.jpg</text>
+  <text x="400" y="720" font-family="Inter, sans-serif" font-size="16" fill="#707070" text-anchor="middle">Recommended: 800x800px minimum</text>
+</svg>

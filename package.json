@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-qa-specialist",
+  "version": "1.0.0",
+  "description": "Professional Portfolio - Senior QA & Software Engineering Specialist",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "qa",
+    "software-engineering",
+    "tailwind",
+    "github-api"
+  ],
+  "author": "Adrian Encarnacion",
+  "license": "MIT"
+}

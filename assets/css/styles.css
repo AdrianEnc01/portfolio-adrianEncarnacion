@@ -1,0 +1,254 @@
+/* ============================================
+   PROFESSIONAL PORTFOLIO - TECH-NOIR THEME
+   Custom Styles to complement Tailwind CSS
+   ============================================ */
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ============================================
+   ANIMATED PARTICLE BACKGROUND
+   ============================================ */
+#particles-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* ============================================
+   PROFILE IMAGE GLOW EFFECT
+   ============================================ */
+@keyframes rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.profile-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #00d4ff,
+    #00ff88,
+    #00d4ff
+  );
+  animation: rotate 4s linear infinite;
+  opacity: 0.6;
+  filter: blur(20px);
+}
+
+/* ============================================
+   TIMELINE STYLES
+   ============================================ */
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, #00d4ff, #00ff88);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.timeline-item:nth-child(even) .timeline-date {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+
+.timeline-content {
+  background: #151515;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+  border-color: #00d4ff;
+  box-shadow: 0 10px 40px rgba(0, 212, 255, 0.3);
+  transform: translateY(-5px);
+}
+
+.timeline-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #00d4ff;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content h4 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: #b0b0b0;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.timeline-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  background: rgba(0, 212, 255, 0.1);
+  color: #00d4ff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.timeline-date {
+  text-align: right;
+  padding-top: 2rem;
+}
+
+.timeline-date span {
+  display: inline-block;
+  background: #00d4ff;
+  color: #0a0a0a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: 2rem;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: #00d4ff;
+  border-radius: 50%;
+  border: 4px solid #0a0a0a;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  z-index: 1;
+}
+
+/* ============================================
+   RESPONSIVE TIMELINE
+   ============================================ */
+@media (max-width: 968px) {
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-item {
+    grid-template-columns: 1fr;
+    padding-left: 60px;
+  }
+  
+  .timeline-item:nth-child(even) .timeline-content {
+    grid-column: 1;
+  }
+  
+  .timeline-item:nth-child(even) .timeline-date {
+    grid-column: 1;
+    text-align: left;
+  }
+  
+  .timeline-date {
+    text-align: left;
+  }
+  
+  .timeline-dot {
+    left: 30px;
+  }
+  
+  .profile-glow {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ============================================
+   SMOOTH TRANSITIONS
+   ============================================ */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR
+   ============================================ */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00d4ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff88;
+}

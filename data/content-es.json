@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "logo": "QA.DEV",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "techStack": "Stack Tecnológico",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "social": "Social",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Ingeniería de Resiliencia Digital: QA, IA y Ciberseguridad",
+    "subtitle": "Transformando la calidad del software mediante automatización inteligente, metodologías rigurosas de pruebas e integración de IA de vanguardia.",
+    "btnExperience": "Ver Experiencia",
+    "btnContact": "Contáctame"
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "paragraph1": "Especialista Senior en QA e Ingeniería de Software con amplia experiencia en GBM, especializado en aseguramiento de calidad, pruebas de automatización y soluciones de pruebas impulsadas por IA.",
+    "paragraph2": "Experto en desarrollo con Java y Python, con un fuerte enfoque en la construcción de marcos de pruebas robustos, optimización de rendimiento y garantía de confiabilidad del software en sistemas empresariales complejos.",
+    "paragraph3": "Apasionado por aprovechar la inteligencia artificial y el aprendizaje automático para revolucionar los procesos de pruebas de software, manteniendo los más altos estándares de ciberseguridad y calidad de código.",
+    "highlight1": {
+      "title": "Experiencia en GBM",
+      "description": "Liderando iniciativas de QA en soluciones empresariales"
+    },
+    "highlight2": {
+      "title": "Pruebas con IA",
+      "description": "Pionero en automatización de pruebas inteligentes"
+    },
+    "highlight3": {
+      "title": "Ingeniería de Rendimiento",
+      "description": "Optimizando confiabilidad y velocidad del sistema"
+    },
+    "highlight4": {
+      "title": "Enfoque en Seguridad",
+      "description": "Estándares OWASP y prácticas de código seguro"
+    }
+  },
+  "techStack": {
+    "title": "Stack Tecnológico",
+    "automation": {
+      "title": "Automatización",
+      "item1": "Java",
+      "item2": "Spring Boot",
+      "item3": "Python",
+      "item4": "Selenium",
+      "item5": "REST Assured"
+    },
+    "coreQA": {
+      "title": "QA Principal",
+      "item1": "Certificado ISTQB V4",
+      "item2": "Pruebas de Rendimiento",
+      "item3": "Pruebas de API",
+      "item4": "Estrategia de Pruebas",
+      "item5": "Métricas de Calidad"
+    },
+    "dataAI": {
+      "title": "Datos / IA",
+      "item1": "SQL",
+      "item2": "Aprendizaje Automático",
+      "item3": "Ciencia de Datos",
+      "item4": "Pruebas de IA",
+      "item5": "Gestión de Datos de Prueba"
+    },
+    "security": {
+      "title": "Seguridad",
+      "item1": "Linux",
+      "item2": "OWASP",
+      "item3": "Pruebas de Seguridad",
+      "item4": "Evaluación de Vulnerabilidades",
+      "item5": "SDLC Seguro"
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional"
+  },
+  "projects": {
+    "title": "Proyectos de GitHub",
+    "subtitle": "Explora mis últimas contribuciones de código abierto y proyectos personales",
+    "loadBtn": "Cargar",
+    "loading": "Cargando proyectos...",
+    "error": "No se pudieron cargar los proyectos. Por favor verifica el nombre de usuario e intenta de nuevo."
+  },
+  "social": {
+    "title": "Conéctate Conmigo",
+    "subtitle": "Conectemos en redes sociales y redes profesionales"
+  },
+  "contact": {
+    "title": "Construyamos Software Robusto",
+    "subtitle": "¿Listo para elevar la calidad de tu software? Conectemos y discutamos cómo podemos trabajar juntos.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "privacy": "Tu información está segura",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado exitosamente! Te responderé pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo o contáctame directamente."
+    },
+    "alternative": "O contáctame directamente:",
+    "linkedin": "LinkedIn",
+    "email": "Correo"
+  },
+  "footer": {
+    "copyright": "© 2026 Especialista Senior en QA e Ingeniería de Software. Todos los derechos reservados."
+  }
+}
